@@ -32,6 +32,8 @@ DensityPlot[Sin[x y], {x, 0, 3}, {y, 0, 3}]
 Plot3D[Sin[x y], {x, 0, 3}, {y, 0, 3}]
 ```
 
+gogogo
+
 ![11kfsagz2jw7a](img\11kfsagz2jw7a.png)
 
 ## 面板
