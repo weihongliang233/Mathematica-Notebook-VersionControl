@@ -39,8 +39,33 @@ index 0b013ca..ba25db5 100644
 
 相同的思路，但是我觉得MMA的diff应该有以下几点支持：
 
-- 可以查看图片
+- 可以查看图片（暂时没找到合适的工具，所以先做纯文本的）
+- 可以与乌龟客户端结合（先做CLI的）
+  - 语法着色（这个太难了，也许得借助VScode，但是我着实不想这样做）
 
-- 可以与乌龟客户端结合
+思路：
 
-  
+写一个convert脚本，接收要被转换的笔记本的名字（简单名）
+
+脚本首先生成一个wls文件，内部代码运行获取当前目录，将接收的参数加到后面形成路径。
+
+生成md文件
+
+输出。
+
+有一个问题：我不知道git diff过滤器背后，是将什么路径名传给过滤器。如果是绝对路径传过去的话那就完蛋了。因为git bash将linux类型的文件名传过去；但是m2md处理的是Windows类型的文件名，这两者难以转化。对于这个问题，一个聪明的办法是直接将我的转化器设为echo $1，看看输入到我的转化器的到底是什么玩意。
+
+但是另一个问题没有解决：如何在不打开前端笔记本的情况下完成转化？
+
+记录一个链接：
+
+[git diff 解析器](https://976500133.gitbooks.io/frontendbook/content/zt/zt-diff.html)
+
+[Git advanced (text) diff: .odt, .pdf, .doc, .xls, .ppt](https://medium.com/@mbrehin/git-advanced-diff-odt-pdf-doc-xls-ppt-25afbf4f1105)
+
+现在的任务基本就是做一个textconv，不用打开前端笔记本，能接收输入的参数（因为我至今不知道textconv应该接收什么输出什么）
+
+https://git-scm.com/docs/gitattributes
+
+https://stackoverflow.com/questions/56428639/why-does-git-diff-textconv-use-the-path-twice
+

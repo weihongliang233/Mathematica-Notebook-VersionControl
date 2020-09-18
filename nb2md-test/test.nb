@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    232550,       4179]
-NotebookOptionsPosition[    229609,       4114]
-NotebookOutlinePosition[    230025,       4131]
-CellTagsIndexPosition[    229982,       4128]
+NotebookDataLength[    234958,       4236]
+NotebookOptionsPosition[    231406,       4163]
+NotebookOutlinePosition[    231822,       4180]
+CellTagsIndexPosition[    231779,       4177]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2969,8 +2969,9 @@ Cell[BoxData[
               Evaluator -> Automatic, Method -> "Preemptive"], 
              Alignment -> {Center, Center}, ImageSize -> 
              Dynamic[{
-               Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                AbsoluteCurrentValue[Magnification]}]], 
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
             GraphicsBox[{{
                PointSize[0.13], 
                GrayLevel[0.45], 
@@ -3004,9 +3005,10 @@ Cell[BoxData[
               Ticks -> {None, None}}, Axes -> False, AspectRatio -> 1, 
              ImageSize -> 
              Dynamic[{
-               Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                AbsoluteCurrentValue[Magnification]}], Frame -> True, 
-             FrameTicks -> None, FrameStyle -> Directive[
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], Frame -> True, FrameTicks -> None, 
+             FrameStyle -> Directive[
                Opacity[0.5], 
                Thickness[Tiny], 
                RGBColor[0.368417, 0.506779, 0.709798]], Background -> 
@@ -3044,8 +3046,9 @@ Cell[BoxData[
               Evaluator -> Automatic, Method -> "Preemptive"], 
              Alignment -> {Center, Center}, ImageSize -> 
              Dynamic[{
-               Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                AbsoluteCurrentValue[Magnification]}]], 
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
             GraphicsBox[{{
                PointSize[0.13], 
                GrayLevel[0.45], 
@@ -3079,9 +3082,10 @@ Cell[BoxData[
               Ticks -> {None, None}}, Axes -> False, AspectRatio -> 1, 
              ImageSize -> 
              Dynamic[{
-               Automatic, 3.5 CurrentValue["FontCapHeight"]/
-                AbsoluteCurrentValue[Magnification]}], Frame -> True, 
-             FrameTicks -> None, FrameStyle -> Directive[
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}], Frame -> True, FrameTicks -> None, 
+             FrameStyle -> Directive[
                Opacity[0.5], 
                Thickness[Tiny], 
                RGBColor[0.368417, 0.506779, 0.709798]], Background -> 
@@ -4108,7 +4112,52 @@ Cell["\<\
  CellChangeTimes->{3.8094149375085635`*^9},
  CellLabel->
   "Out[93]//TeXForm=",ExpressionUUID->"8f502264-659d-4fe2-9fa2-47e73c783d66"]
-}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"<<", "M2MD`"}]], "Input",
+ CellChangeTimes->{{3.8094150750466986`*^9, 3.8094150865597816`*^9}},
+ CellLabel->"In[94]:=",ExpressionUUID->"d48528f2-bcf0-4171-a537-a25fd13d481d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MDExport", "[", 
+  RowBox[{
+  "\"\<G:\\\\GitHub Local Repository\\\\Mathematica-Notebook-VersionControl\\\
+\\nb2md-test\\\\exported.md\>\"", ",", 
+   RowBox[{"EvaluationNotebook", "[", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.809415199921767*^9, 3.8094152199344482`*^9}, {
+  3.809417598429639*^9, 3.809417598550316*^9}, {3.8094177266938143`*^9, 
+  3.809417733753972*^9}, {3.8094179370716085`*^9, 3.809417940135459*^9}, {
+  3.8094180506968384`*^9, 3.8094180536120467`*^9}},
+ CellLabel->
+  "In[103]:=",ExpressionUUID->"9bada00d-d459-4c9e-aa12-e19453ae5938"],
+
+Cell[BoxData["\<\"G:\\\\GitHub Local \
+Repository\\\\Mathematica-Notebook-VersionControl\\\\nb2md-test\\\\exported.\
+md\"\>"], "Output",
+ CellChangeTimes->{3.809415225099678*^9, 3.8094175995915327`*^9, 
+  3.809417642541711*^9, 3.8094177378459997`*^9, 3.809417942813259*^9, 
+  3.8094180551120005`*^9},
+ CellLabel->
+  "Out[103]=",ExpressionUUID->"7c023ab4-8bef-4101-8c84-185ab2a101c2"]
+}, Open  ]],
+
+Cell[BoxData["$UserBaseDirectory"], "Input",
+ CellChangeTimes->{{3.8094236220219016`*^9, 
+  3.8094236252929006`*^9}},ExpressionUUID->"0a379c42-a41e-4f1e-a3f6-\
+8fce58062610"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8094238980398397`*^9, 
+  3.8094238994222717`*^9}},ExpressionUUID->"eb7a239e-bc4b-42bc-a12c-\
+2a66ec1534e1"],
+
+Cell[BoxData["SetDirectory"], "Input",
+ CellChangeTimes->{{3.8094246976924524`*^9, 
+  3.8094247014572926`*^9}},ExpressionUUID->"c9c8f12c-18e6-4113-a158-\
+ad6c36afc24a"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -4162,23 +4211,31 @@ Cell[CellGroupData[{
 Cell[172110, 2937, 133, 3, 67, "Section",ExpressionUUID->"d2b3e30d-bb9f-4284-9ee7-978e3738d6bd"],
 Cell[CellGroupData[{
 Cell[172268, 2944, 366, 8, 44, "Input",ExpressionUUID->"72c26778-19e4-4289-bd6d-2be35d9303dc"],
-Cell[172637, 2954, 45873, 851, 65, "Output",ExpressionUUID->"b48ef0c5-6a96-436a-a1b9-440e4f91687f"]
+Cell[172637, 2954, 45953, 855, 65, "Output",ExpressionUUID->"b48ef0c5-6a96-436a-a1b9-440e4f91687f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[218547, 3810, 213, 3, 44, "Input",ExpressionUUID->"2f82b390-77a4-44fd-bcec-38ed216777f9"],
-Cell[218763, 3815, 8964, 225, 311, "Output",ExpressionUUID->"0ccfb286-9060-41da-afbd-52841eceb342"]
+Cell[218627, 3814, 213, 3, 44, "Input",ExpressionUUID->"2f82b390-77a4-44fd-bcec-38ed216777f9"],
+Cell[218843, 3819, 8964, 225, 311, "Output",ExpressionUUID->"0ccfb286-9060-41da-afbd-52841eceb342"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[227776, 4046, 161, 3, 67, "Section",ExpressionUUID->"b71cc91d-e7c5-4a9d-b5d7-53e3685d8a4f"],
+Cell[227856, 4050, 161, 3, 67, "Section",ExpressionUUID->"b71cc91d-e7c5-4a9d-b5d7-53e3685d8a4f"],
 Cell[CellGroupData[{
-Cell[227962, 4053, 357, 9, 44, "Input",ExpressionUUID->"1501c075-d5b7-4e46-8ef5-50cb1045ebb3"],
-Cell[228322, 4064, 622, 19, 60, "Output",ExpressionUUID->"70fedb47-e094-4fd2-b8fe-53afc3d6e37c"]
+Cell[228042, 4057, 357, 9, 44, "Input",ExpressionUUID->"1501c075-d5b7-4e46-8ef5-50cb1045ebb3"],
+Cell[228402, 4068, 622, 19, 61, "Output",ExpressionUUID->"70fedb47-e094-4fd2-b8fe-53afc3d6e37c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[228981, 4088, 352, 9, 44, "Input",ExpressionUUID->"189c9fa1-4e1a-4773-b9ad-ca6e5e4d0911"],
-Cell[229336, 4099, 233, 10, 130, "Output",ExpressionUUID->"8f502264-659d-4fe2-9fa2-47e73c783d66"]
-}, Open  ]]
+Cell[229061, 4092, 352, 9, 44, "Input",ExpressionUUID->"189c9fa1-4e1a-4773-b9ad-ca6e5e4d0911"],
+Cell[229416, 4103, 233, 10, 131, "Output",ExpressionUUID->"8f502264-659d-4fe2-9fa2-47e73c783d66"]
+}, Open  ]],
+Cell[229664, 4116, 198, 3, 28, "Input",ExpressionUUID->"d48528f2-bcf0-4171-a537-a25fd13d481d"],
+Cell[CellGroupData[{
+Cell[229887, 4123, 586, 11, 63, "Input",ExpressionUUID->"9bada00d-d459-4c9e-aa12-e19453ae5938"],
+Cell[230476, 4136, 383, 7, 32, "Output",ExpressionUUID->"7c023ab4-8bef-4101-8c84-185ab2a101c2"]
+}, Open  ]],
+Cell[230874, 4146, 174, 3, 44, "Input",ExpressionUUID->"0a379c42-a41e-4f1e-a3f6-8fce58062610"],
+Cell[231051, 4151, 156, 3, 28, "Input",ExpressionUUID->"eb7a239e-bc4b-42bc-a12c-2a66ec1534e1"],
+Cell[231210, 4156, 168, 3, 44, "Input",ExpressionUUID->"c9c8f12c-18e6-4113-a158-ad6c36afc24a"]
 }, Open  ]]
 }, Open  ]]
 }
