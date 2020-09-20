@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="GBK">
+    <title></title>
+    <style>
+        .first {
+            width: 48%;
+            float:left;
+            height: 100vh;
+            border: 1px solid #3B6273;
+            
+        }
+        .second {
+            width: 48%;
+            float:left;
+            height: 100vh;
+            border: 1px solid #3B6273;
+            
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="first"> 
+        <h1  style="color: aqua; background-color: brown;">测试</h1>
+        <h2>普通计算</h2>
+        <pre ><code class='language-mathematica' lang='mathematica'>1 + 1
+      
+      (*2*)
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>Sin[x + 1]
+      
+      (*Sin[1 + x]*)
+      </code></pre>
+        <h2>画图</h2>
+        <pre><code class='language-mathematica' lang='mathematica'>Plot[Sin[x], {x, 0, 1}]
+      </code></pre>
+        <p><img src="img\026uxzej9mafr.png" referrerpolicy="no-referrer" alt="026uxzej9mafr"></p>
+        <pre><code class='language-mathematica' lang='mathematica'>DensityPlot[Sin[x y], {x, 0, 3}, {y, 0, 3}]
+      </code></pre>
+        <p><img src="img\1bptnm94jalyz.png" referrerpolicy="no-referrer" alt="1bptnm94jalyz"></p>
+        <pre><code class='language-mathematica' lang='mathematica'>Plot3D[Sin[x y], {x, 0, 3}, {y, 0, 3}]
+      </code></pre>
+        <p><img src="img\11kfsagz2jw7a.png" referrerpolicy="no-referrer" alt="11kfsagz2jw7a"></p>
+        <h2>面板</h2>
+        <pre><code class='language-mathematica' lang='mathematica'>class = Classify[{1 -&gt; &quot;A&quot;, 2 -&gt; &quot;B&quot;}]
+      </code></pre>
+        <p><img src="img\0l65it4xi3ew9.png" referrerpolicy="no-referrer" alt="0l65it4xi3ew9"></p>
+        <pre><code class='language-mathematica' lang='mathematica'>class // Information
+      </code></pre>
+        <p><img src="img\1e92b6s35x304.png" referrerpolicy="no-referrer" alt="1e92b6s35x304"></p>
+        <h2>不同Cell</h2>
+        <pre><code class='language-mathematica' lang='mathematica'>{{1, 2}, {3, 4}} // MatrixForm
+      </code></pre>
+        <p><img src="img\0tf7n6kng4irs.png" referrerpolicy="no-referrer" alt="0tf7n6kng4irs"></p>
+        <pre><code class='language-mathematica' lang='mathematica'>{{1, 2}, {3, 4}} // TeXForm
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>\left(
+      \begin{array}{cc}
+       1 &amp; 2 \\
+       3 &amp; 4 \\
+      \end{array}
+      \right)
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>&lt;&lt; M2MD`
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>MDExport[&quot;G:\\GitHub Local \
+      Repository\\Mathematica-Notebook-VersionControl\\nb2md-test\\exported.\
+      md&quot;, EvaluationNotebook[]]
+      
+      (*&quot;G:\\GitHub Local \
+      Repository\\Mathematica-Notebook-VersionControl\\nb2md-test\\exported.\
+      md&quot;*)
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>$UserBaseDirectory
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>$ScriptCommandLine + 1
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>NotebookGet
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>a
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>SetOptions[EvaluationNotebook[], 
+        NotebookEventActions -&gt; {&quot;WindowClose&quot; :&gt; (a = a + 1)}];
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>a
+      
+      (*1*)
+      </code></pre>
+    </div>
+    <div class="second"> 
+        <h1  style="color: aqua; background-color: brown;">测试</h1>
+        <h2>普通计算</h2>
+        <pre ><code class='language-mathematica' lang='mathematica'>1 + 1
+      
+      (*2*)
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>Sin[x + 1]
+      
+      (*Sin[1 + x]*)
+      </code></pre>
+        <h2>画图</h2>
+        <pre><code class='language-mathematica' lang='mathematica'>Plot[Sin[x], {x, 0, 1}]
+      </code></pre>
+        <p><img src="img\026uxzej9mafr.png" referrerpolicy="no-referrer" alt="026uxzej9mafr"></p>
+        <pre><code class='language-mathematica' lang='mathematica'>DensityPlot[Sin[x y], {x, 0, 3}, {y, 0, 3}]
+      </code></pre>
+        <p><img src="img\1bptnm94jalyz.png" referrerpolicy="no-referrer" alt="1bptnm94jalyz"></p>
+        <pre><code class='language-mathematica' lang='mathematica'>Plot3D[Sin[x y], {x, 0, 3}, {y, 0, 3}]
+      </code></pre>
+        <p><img src="img\11kfsagz2jw7a.png" referrerpolicy="no-referrer" alt="11kfsagz2jw7a"></p>
+        <h2>面板</h2>
+        <pre><code class='language-mathematica' lang='mathematica'>class = Classify[{1 -&gt; &quot;A&quot;, 2 -&gt; &quot;B&quot;}]
+      </code></pre>
+        <p><img src="img\0l65it4xi3ew9.png" referrerpolicy="no-referrer" alt="0l65it4xi3ew9"></p>
+        <pre><code class='language-mathematica' lang='mathematica'>class // Information
+      </code></pre>
+        <p><img src="img\1e92b6s35x304.png" referrerpolicy="no-referrer" alt="1e92b6s35x304"></p>
+        <h2>不同Cell</h2>
+        <pre><code class='language-mathematica' lang='mathematica'>{{1, 2}, {3, 4}} // MatrixForm
+      </code></pre>
+        <p><img src="img\0tf7n6kng4irs.png" referrerpolicy="no-referrer" alt="0tf7n6kng4irs"></p>
+        <pre><code class='language-mathematica' lang='mathematica'>{{1, 2}, {3, 4}} // TeXForm
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>\left(
+      \begin{array}{cc}
+       1 &amp; 2 \\
+       3 &amp; 4 \\
+      \end{array}
+      \right)
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>&lt;&lt; M2MD`
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>MDExport[&quot;G:\\GitHub Local \
+      Repository\\Mathematica-Notebook-VersionControl\\nb2md-test\\exported.\
+      md&quot;, EvaluationNotebook[]]
+      
+      (*&quot;G:\\GitHub Local \
+      Repository\\Mathematica-Notebook-VersionControl\\nb2md-test\\exported.\
+      md&quot;*)
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>$UserBaseDirectory
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>$ScriptCommandLine + 1
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>NotebookGet
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>a
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>SetOptions[EvaluationNotebook[], 
+        NotebookEventActions -&gt; {&quot;WindowClose&quot; :&gt; (a = a + 1)}];
+      </code></pre>
+        <pre><code class='language-mathematica' lang='mathematica'>a
+      
+      (*1*)
+      </code></pre>
+    </div>
+</body>
+</html>
