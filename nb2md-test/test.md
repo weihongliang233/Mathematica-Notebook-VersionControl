@@ -17,10 +17,22 @@ Sin[x + 1]
 ## 画图
 
 ```mathematica
+Plot[Sin[x], {x, 0, 1}]
+```
+
+![026uxzej9mafr](img\026uxzej9mafr.png)
+
+```mathematica
 DensityPlot[Sin[x y], {x, 0, 3}, {y, 0, 3}]
 ```
 
 ![1bptnm94jalyz](img\1bptnm94jalyz.png)
+
+```mathematica
+Plot3D[Sin[x y], {x, 0, 3}, {y, 0, 3}]
+```
+
+![11kfsagz2jw7a](img\11kfsagz2jw7a.png)
 
 ## 面板
 
@@ -69,4 +81,20 @@ md", EvaluationNotebook[]]
 (*"G:\\GitHub Local \
 Repository\\Mathematica-Notebook-VersionControl\\nb2md-test\\exported.\
 md"*)
+```
+
+```mathematica
+$UserBaseDirectory
+```
+
+```mathematica
+
+```
+
+```mathematica
+$ScriptCommandLine + 1
+```
+
+```mathematica
+NotebookGet
 ```

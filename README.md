@@ -69,3 +69,7 @@ https://git-scm.com/docs/gitattributes
 
 https://stackoverflow.com/questions/56428639/why-does-git-diff-textconv-use-the-path-twice
 
+## Markdown Diff tool
+
+现在的问题变成，要做出一个Markdown比较器。我发现市面上没有合适的，我觉得可以通过HTML设计一个。
+
